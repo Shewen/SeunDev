@@ -23,7 +23,7 @@ function Navbar() {
           onClick={() => setIsOpen(false)}
           className="relative z-[10000] text-2xl font-bold tracking-tight text-slate-950"
         >
-          Seun<span className="text-blue-600">.</span>
+          SeunDev<span className="text-blue-600">.</span>
         </NavLink>
 
         {/* Desktop */}

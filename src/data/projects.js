@@ -1,4 +1,7 @@
+
 import anibSolesImage from "../assets/anib-soles.PNG";
+import dammyIctImage from "../assets/dammyict.PNG";
+
 const projects = [
   {
     id: 'anib-soles',
@@ -44,6 +47,51 @@ const projects = [
 
     image: anibSolesImage,
   },
+
+  {
+    id: 'dammy-ict-ventures',
+    title: 'Dammy ICT Ventures',
+    category: 'Education & ICT',
+    subtitle: 'Modern education and ICT services website.',
+    description:
+      'A responsive business website designed for an education and ICT services company, making it easier for visitors to understand available services, explore how the business works, and get in touch.',
+
+    technologies: [
+      'React',
+      'JavaScript',
+      'Tailwind CSS',
+      'React Router',
+      'Vite',
+    ],
+
+    features: [
+      'Responsive navigation',
+      'Education and ICT service presentation',
+      'How It Works section',
+      'WhatsApp contact integration',
+      'Contact section',
+      'Responsive hero section',
+      'Mobile-friendly design',
+      'Reusable React components',
+    ],
+
+    challenge:
+      'Create a professional digital presence that clearly communicates the company’s education and ICT services while making it easy for potential customers to take action.',
+
+    solution:
+      'Built a modern React website with a strong visual hierarchy, responsive layouts, clear service sections, and direct communication through WhatsApp and contact options.',
+
+    development:
+      'The website was developed using reusable React components and responsive Tailwind CSS layouts to provide a consistent experience across desktop and mobile devices.',
+
+    result:
+      'A professional education and ICT services website that gives the business a stronger online presence and provides visitors with a clear path to learn about services and make contact.',
+
+    liveUrl: 'https://dammyictventures.netlify.app/',
+
+    image: dammyIctImage,
+  },
 ]
 
 export default projects
+
