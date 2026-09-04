@@ -1,6 +1,7 @@
 
 import anibSolesImage from "../assets/anib-soles.PNG";
 import dammyIctImage from "../assets/dammyict.PNG";
+import sportPredictionImage from "../assets/sportprediction.PNG"
 
 const projects = [
   {
@@ -91,6 +92,59 @@ const projects = [
 
     image: dammyIctImage,
   },
+
+  {
+    id: 'Football Prediction & Analysis Platform',
+    title: 'Football Prediction & Analysis Platform',
+    category: 'Web Application / Sports Analytics',
+    subtitle: 'Football Prediction & Analysis Platform.',
+    description:
+      'A responsive A modern football prediction platform that allows users to explore upcoming matches, view football predictions by league, and build personalized prediction slips from available picks.',
+
+    technologies: [
+      'React',
+      'JavaScript',
+      'Tailwind CSS',
+      'React Router',
+      'Vite',
+      'Supabase',
+      'Netlify',
+      
+    ],
+
+    features: [
+      'Daily football predictions',
+      'League-based prediction browsing',
+      'Match and prediction search',
+      'Prediction cards with confidence/access information',
+      'My Picks prediction slip',
+      'Add/remove selections from a pick',
+      'Printable prediction ticket',
+      'Mobile-responsive interface',
+      'Supabase database integration',
+      'Admin dashboard for managing predictions',
+      'Team management and team logos',
+      'Add/edit/delete predictions',
+      'Deployed production website',
+      
+    ],
+
+    challenge:
+    "Managing football predictions across multiple leagues while giving users a simple way to discover and save picks.",
+    solution:
+    "A responsive React application backed by Supabase, with an admin system for managing teams, leagues and predictions.",
+    development:
+      'The website was developed using reusable React components and responsive Tailwind CSS layouts to provide a consistent experience across desktop and mobile devices.',
+
+    result:
+      'A responsive football prediction web application designed to help users discover daily match predictions, browse leagues, and create personalized prediction slips.',
+
+    liveUrl: 'https://since2001prediction.netlify.app/',
+
+    image: sportPredictionImage,
+  },
+
+  
 ]
 
 export default projects
